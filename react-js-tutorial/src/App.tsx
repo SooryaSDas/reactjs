@@ -1,6 +1,8 @@
 // import './App.css'
 
+import DataBinding from "./Databinding"
 import Digital from "./Digital"
+import EventBinding from "./EventBinding"
 
 function App() {
   
@@ -9,6 +11,8 @@ function App() {
     <>
       <h1>hello</h1>
       <Digital/>
+      <DataBinding />
+      <EventBinding />
     </>
   )
 }
