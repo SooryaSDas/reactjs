@@ -14,7 +14,7 @@ function Usestatefn() {
   };
   return (
     <div>
-        
+
       {/* counter */}
       <div>
         <p>Count : {count}</p>
@@ -42,6 +42,7 @@ function Usestatefn() {
         </form>
         <br />
         <p>Name: {submitname} </p>
+        <p>count : {submitname.length}</p>
       </div>
 
     </div>
