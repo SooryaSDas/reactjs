@@ -3,6 +3,7 @@
 import DataBinding from "./Databinding"
 import Digital from "./Digital"
 import EventBinding from "./EventBinding"
+import Uncontrolled from "./Uncontrolled"
 
 function App() {
   
@@ -13,6 +14,7 @@ function App() {
       <Digital/>
       <DataBinding />
       <EventBinding />
+      <Uncontrolled />
     </>
   )
 }
