@@ -4,6 +4,7 @@ import DataBinding from "./Databinding"
 import Digital from "./Digital"
 import EventBinding from "./EventBinding"
 import Uncontrolled from "./Uncontrolled"
+import Usestatefn from "./Usestatefn"
 
 function App() {
   
@@ -15,6 +16,7 @@ function App() {
       <DataBinding />
       <EventBinding />
       <Uncontrolled />
+      <Usestatefn />
     </>
   )
 }
