@@ -12,6 +12,8 @@ function Usestatefn() {
     e.preventDefault();
     setSubmitname(name);
   };
+
+  
   return (
     <div>
 
@@ -45,6 +47,10 @@ function Usestatefn() {
         <p>count : {submitname.length}</p>
       </div>
 
+      {/* checking */}
+      <div>
+        
+      </div>
     </div>
   );
 }
