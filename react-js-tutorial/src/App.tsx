@@ -1,18 +1,20 @@
 // import './App.css'
 
+import Counter from "./Counter"
+
 // import DataBinding from "./Databinding"
 // import Digital from "./Digital"
 // import EventBinding from "./EventBinding"
 // import Uncontrolled from "./Uncontrolled"
 // import Usestatefn from "./Usestatefn"
-import Tododata from "./Tododata"
+// import Tododata from "./Tododata"
+
 function App() {
   
-
   return (
     <>
-      <h1>hello</h1>
-    <Tododata />
+      <Counter />
+    {/* <Tododata /> */}
       {/* <Digital/>
       <DataBinding />
       <EventBinding />
