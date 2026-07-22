@@ -1,6 +1,10 @@
 // import './App.css'
 
-import Counter from "./Counter"
+import Counter from "./Questions/Counter"
+import ShowHide from "./Questions/ShowHide"
+
+// import Counter from "./Counter"
+// import ShowPassword from "./ShowPassword"
 
 // import DataBinding from "./Databinding"
 // import Digital from "./Digital"
@@ -14,6 +18,9 @@ function App() {
   return (
     <>
       <Counter />
+      <ShowHide />
+      {/* <Counter /> */}
+      {/* <ShowPassword /> */}
     {/* <Tododata /> */}
       {/* <Digital/>
       <DataBinding />
