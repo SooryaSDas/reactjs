@@ -1,6 +1,7 @@
 // import './App.css'
 
 import Counter from "./Questions/Counter"
+import SearchFilter from "./Questions/SearchFilter"
 import ShowHide from "./Questions/ShowHide"
 
 // import Counter from "./Counter"
@@ -19,6 +20,7 @@ function App() {
     <>
       <Counter />
       <ShowHide />
+      <SearchFilter />
       {/* <Counter /> */}
       {/* <ShowPassword /> */}
     {/* <Tododata /> */}

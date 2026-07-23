@@ -1,18 +1,20 @@
-import { useState } from "react";
+import { useState } from "react"
 
 function SearchFilter(){
-    const fruits = ["apple", "orange", "kiwi", "banana", "strawberry"];
-    const [search, setSearch] = useState();
-    
-    const SearchResult = ()=>{
 
-    }
+    const fruits = ["apple", "orange", "mango", "bananan", "kiwi"];
+
+    const [search, setSearch] = useState("")
+
+    const filteredvalue = fruits.filter((fruits)=> fruits.includes(search.toLowerCase()))
 
     return <div>
-        <input type="text" placeholder="search..." />
-        <button onClick={SearchResult}>Submit</button>
+        <input type="text" placeholder="search..." onChange={(e)=>setSearch(e.target.value)} />
+
+        {filteredvalue.map((fruits, index)=> (
+            <p key={index}>{fruits} </p>
+        ))}
     </div>
 }
-
 
 export default SearchFilter
