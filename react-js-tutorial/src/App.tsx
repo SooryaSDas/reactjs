@@ -1,8 +1,9 @@
 // import './App.css'
 
-import Counter from "./Questions/Counter"
-import SearchFilter from "./Questions/SearchFilter"
-import ShowHide from "./Questions/ShowHide"
+// import Counter from "./Questions/Counter"
+import FetchData from "./Questions/FetchData"
+// import SearchFilter from "./Questions/SearchFilter"
+// import ShowHide from "./Questions/ShowHide"
 
 // import Counter from "./Counter"
 // import ShowPassword from "./ShowPassword"
@@ -18,9 +19,10 @@ function App() {
   
   return (
     <>
-      <Counter />
+      {/* <Counter />
       <ShowHide />
-      <SearchFilter />
+      <SearchFilter /> */}
+      <FetchData />
       {/* <Counter /> */}
       {/* <ShowPassword /> */}
     {/* <Tododata /> */}
